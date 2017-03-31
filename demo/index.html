@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Boilerplate</title>
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../src/template.js"></script>
+	</head>
+	<body>
+		<div class="element"></div>
+		<div class="element"></div>
+		<div class="element"></div>
+		<div class="element"></div>
+		<script>
+			$( function() {
+				$( ".element" ).template( {
+					propertyName: "a custom value"
+				} );
+			} );
+		</script>
+	</body>
+</html>
